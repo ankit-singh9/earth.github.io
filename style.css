@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+.navbar{
+    height: 30px;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    background-color: rgb(92, 63, 105);
+    height: 30px;
+    
+}
+.navbar-container i{
+    color: azure;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2rem; 
+   
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2rem
+}
+.road-map{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2rem
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2rem
+}
+.country{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2rem
+}
+.help{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50rem;
+    cursor: pointer;
+}
+.home ,.gallery,.road-map,.country,.about p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    cursor: pointer; 
+    color: azure;
+}
+.help p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    cursor: pointer; 
+    color: azure;
+}
+.main-content{
+    display: inline;
+
+    
+}
+.heading{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 50px;
+    background-color: rgb(102, 76, 114);
+    color: rgb(240, 229, 74);
+
+}
+.heading img {
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+
+}
+.reading{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-color: rgb(39, 5, 54);
+    color: rgb(115, 187, 20);
+    font-weight: 700;
+}
+.reading img{
+    height: 350px;
+    width: 450px;
+    background-size: cover;
+    margin-left: 70px;
+}
+.read p{
+    display: flex;
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: 300;
+    background: linear-gradient(to right,red,blue);
+    color: transparent;
+    -webkit-background-clip: text;
+    /* text-shadow:chartreuse; */
+}
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(209, 139, 241);
+    color:rgb(253, 253, 248)
+}
+.message p {
+    font-size: xx-large;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(3, 10, 65);
+    height: 400px;
+
+}
+.box{
+    border: 2px solid rgb(209, 192, 192);
+    height: 80px;
+    width: 23%;
+    background-color: rgb(244, 238, 250);
+    padding: 20px 0px 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.box-content{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.box-img{
+    height:70px ;
+    width: 70px;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.box-content p{
+    margin-left: 15px;
+    font-size: 50px;
+
+}
+.more{
+    background-color: rgb(5, 16, 100);
+    color: rgb(231, 255, 20);
+    display: flex;
+    align-items: center;
+}
+.more p{
+    margin-left: 20px;
+}
+.box:hover{
+    box-shadow: inset 0 0 5px 5px olivedrab;
+}
+
+
+
+
+
+
+ /* first page css */
+ .onefirst p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+ }
+ .tet{
+    color: rgb(217, 240, 16);
+ }
+ .onefirst{
+    background-color: rgb(49, 4, 10);
+ }
+ .firstimg{
+    /* display: flex; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 610px;
+ }
+ .firstimg h1 {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: rgb(247, 136, 10);
+
+}
+ .reads{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+    /* color: rgb(238, 241, 35); */
+    
+ }
+ .tet2{
+    font-size: large;
+    font-weight: 700;
+    background: linear-gradient(to right,rgb(236, 32, 127),rgb(94, 8, 253),rgb(233, 22, 57),green);
+    color: transparent;
+    -webkit-background-clip: text;
+ }
